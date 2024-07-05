@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+.heading{
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+}
+.buttons{
+  text-align: center;
+}
+.centered{
+  text-align: center;
+  
+}
+
+.button1{
+  background-color: #ebf3f0; 
+  border: none;
+  color: rgb(12, 1, 1);
+  padding: 10px 85px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bolder;
+
+}
+.active-button{
+  background-color: black;
+  color: white;
+  
+
+
+ 
+}
+
+.img{
+  border-radius: 20px;
+}
+
+.cart_button{
+  margin-bottom: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+  width: 300px;
+  height: 100%;
+  
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 10px; 
+  
+  img{
+    height: 355px; 
+  }
+}
+
+.test {
+  display: flex;
+   flex-direction: column;
+   text-align: center; 
+}
+
+
+.heading2{
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+}
+
+
+.inline {
+  display: inline-block;
+}
+
+.small_para{
+  font-size: 12px;
+  text-align: right;
+  padding-left: 8px;
+}
+
+.button2{
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 15px 100px;
+}
+
+.discount_para{
+  font-size: 12px;
+  text-decoration: line-through;
+  padding-left: 15px;
+}
+
+.off_para{
+  color: red;
+  padding-left: 15px;
+}
+
+.rate_para{
+  font-weight: 700;
+}
+
+
+.flex-container {
+   display: flex;
+  flex-direction: row;
+  background-color: #f1f1f1;
+  margin-top: 20px; 
+  max-width: 100%;
+  flex-wrap: wrap;
+  
+
+}
+.active{
+  display: flex;
+
+}
+
+
+.badge{
+  background: white;
+  position:  fixed relative absolute; 
+  top:8px;
+  left: 16px;
+
+  
+    right: 20px; 
+
+    width: 110px; 
+    padding: 10px;
+
+    height: 380px;
+    text-align: left; 
+    margin: auto;
+
+    border-radius: 0px; 
+
+    font-size: 15px; 
+
+    border: none; 
+
+
+    
+
+    transition: 0.3s linear;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  
+}
+
+.overlay-text {
+  position: absolute;
+  top: 18px; 
+  left: 70px; 
+  height: 150px;
+  width: 300px; 
+
+    height: 40px;
+  transform: translate(-50%, -50%); 
+  background-color: tranparent; 
+  color: black; 
+  padding: 10px 20px; 
+  font-size: 10px; 
+  text-align: center;}
